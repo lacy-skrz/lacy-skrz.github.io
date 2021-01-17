@@ -133,9 +133,8 @@ b, strong {
   display: inline-block;
   vertical-align: top;
   margin-top: 5px;
-  min-width: 450px;
+  width: 100%;
   position: relative;
-  white-space: nowrap;
 }
 
 .animated-item {
@@ -236,8 +235,8 @@ b, strong {
 .navbar-brand {
   font-weight: bold;
 }
- 
-.navbar-expand-md .navbar-nav .nav-link {
+
+.navbar-expand-sm .navbar-nav .nav-link {
   padding: 0 20px;
 } 
 
@@ -673,12 +672,6 @@ html:not(.dark-mode) .dark-only { display: none; }
 }
 
 @media (max-width: 650px) {
-	.animated-info {
-		min-width: 375px;
-	}
-  .animated-item {
-    font-size: 30px;
-  }
   .custom-btn-group {
     text-align: center;
   }
@@ -800,14 +793,10 @@ ul.emoji-list ul li {
   list-style-type: circle;
 }
 
-
-
 .switch {
   display: inline-block;
   height: 34px;
   position: relative;
-  /* width: 60px; */
-  left: -4%;
 }
 
 .switch input {
