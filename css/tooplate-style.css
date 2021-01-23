@@ -52,6 +52,7 @@ a {
   font-weight: normal;
   text-decoration: none !important;
   transition: all 0.4s ease;
+  color: #0063e2;
 }
 
 a:hover {
@@ -86,7 +87,7 @@ h2 {
   font-weight: bold;
 }
 
-h2~p {
+h1~p {
   text-align: left;
 }
 
@@ -97,6 +98,12 @@ h3 {
 h3,
 b, strong {
   font-weight: bold;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  height: 1px; width: 1px; 
+  overflow: hidden;
 }
 
 .custom-btn {
@@ -246,16 +253,22 @@ b, strong {
   overflow: hidden;
   padding: 0;
 }
+
 .nav-link span {
   position: relative;
   display: inline-block;
   transition: transform 0.3s;
 }
+
 .nav-link span:before {
   position: absolute;
   top: 100%;
   content: attr(data-hover);
   transform: translate3d(0, 0, 0);
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #595959;
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -361,6 +374,10 @@ b, strong {
   color: #f3f3f4;
 }
 
+.dark-mode a {
+  color: #1F81FF;
+}
+
 .dark-mode a:hover {
   color: #62d1da !important;
 }
@@ -370,7 +387,7 @@ b, strong {
 }
 
 .dark-mode .custom-btn.custom-btn-bg {
-  background: #bb86fc;
+  background: #826C99;
   color: #ffffff;
 }
 
@@ -401,7 +418,7 @@ b, strong {
 }
 
 .dark-mode .owl-theme .owl-nav [class*=owl-]:hover {
-  color: #bb86fc;
+  color: #826C99;
 }
 
 .dark-mode .timeline-yr {
