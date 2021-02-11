@@ -326,7 +326,6 @@ b, strong {
 }
 
 .copyright-text {
-  font-size: 16px;
   font-weight: normal;
   display: block;
 }
@@ -450,6 +449,10 @@ html:not(.dark-mode) .dark-only { display: none; }
 }
 
 .dark-mode figcaption {
+  color: #ffffff;
+}
+
+.dark-mode .copyright-text {
   color: #ffffff;
 }
 
