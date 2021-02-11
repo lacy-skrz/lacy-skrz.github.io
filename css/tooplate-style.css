@@ -445,6 +445,25 @@ b, strong {
 .dark-mode .light-only { display: none; }
 html:not(.dark-mode) .dark-only { display: none; }
 
+.dark-mode .about-avatar img{
+  border-radius: 35% 10%;
+}
+
+.dark-mode figcaption {
+  color: #ffffff;
+}
+
+.about-avatar {
+  display: -ms-grid;
+  display: grid;
+  justify-content: center;
+}
+
+.about-avatar img {
+  margin-bottom: 2rem;
+  max-height: 40em;
+}
+
 .timeline-wrapper {
   position: relative;
   padding: 22px 0;
