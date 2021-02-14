@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<title>Garmin Design Challenge</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/unicons.css">
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<!-- MAIN STYLE -->
+	<link rel="stylesheet" href="css/tooplate-style.css"> </head>
+
+<body>
+	<!-- MENU -->
+	<nav class="navbar navbar-expand-md navbar-light">
+		<div class="container">
+			<a class="navbar-brand" href="index.html"> <i class='uil uil-coffee'></i>Lacy</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> <span class="navbar-toggler-icon"></span> <span class="navbar-toggler-icon"></span> </button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav mx-auto">
+					<li class="nav-item"> <a href="about.html" class="nav-link" aria-label="About"><span aria-hidden="true" data-hover="About">About</span></a> </li>
+					<li class="nav-item"> <a href="Lacy_Skrzeczkoski_Resume.pdf" target="_blank" class="nav-link" aria-label="Resume"><span aria-hidden="true" data-hover="Resume">Resume</span></a> </li>
+					<li class="nav-item"> <a href="contact.html" class="nav-link" aria-label="Contact"><span aria-hidden="true" data-hover="Contact">Contact</span></a> </li>
+					<li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown2" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> 
+                    Projects
+                    </a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown2"> 
+              <a class="dropdown-item" href="project-site-development.html">Site Development</a> 
+              <a class="dropdown-item" href="project-garmin-design-challenge.html">Design Challenge</a> 
+            </div>
+					</li>
+				</ul>
+				<ul class="navbar-nav ml-lg-auto">
+					<li class="ml-lg-4">
+						<div class="color-mode d-lg-flex justify-content-center align-items-center">
+							<button id="darkToggle"><i id="toggle-icon" class="color-mode-icon"></i> <span class="dark-only">Light</span> <span class="light-only">Dark</span> </button>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- PROJECTS -->
+	<main class="project py-5" id="project">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-11 text-center mx-auto col-12">
+					<div class="col-lg-10 mx-auto">
+						<h1>Garmin Data Field Design Challenge</h1>
+						<h2 class="text-left">Background</h2>
+						<p>The goal of this design challenge is to practice Design Thinking (Empathize, Define, Ideate, Prototype, Test) and summarize the challenge in a structured way.</p>
+						<div class="flex-container text-left">
+              <div class="flex-child">
+                <h3>The Challenge</h3>
+                <p>Design a watch interface for MAF training.</p>
+              </div>
+              <div class="flex-child">
+                <h3>My Role</h3>
+                <p>Research, interface design.</p>
+              </div>
+            </div>
+						<h3 class="text-left">Company Overview</h3>
+						<p>Garmin produces wearable fitness tracking devices aimed at activities such as walking, running, cycling, and swimming. These devices, typically watches, feature built-in heart rate monitoring or they can sync with compatible heart rate monitor straps. &nbsp;The wearer can customize the display by downloading apps, widgets, data fields, and watch faces.</p>
+            <h3 class="text-left">Training Overview</h3>
+						<p>A popular method for cardiovascular exercise is heart rate training. This uses your heart rate, measured in beats per minute (bpm), as a guide for training intensity. Intensity is broken down into &ldquo;zones&rdquo; calculated as percentages of your maximum heart rate (MHR). What zone an athlete aims to exercise in is based on their personal or prescribed (usually by a coach) zone. Each zone serves a purpose and can be categorized as aerobic or anaerobic conditioning. The zones are typically defined as follows:</p>
+						<ul class="simple-list">
+							<li class="simple-list-item">Zone 1: Very light, 50 percent to 60 percent of MHR</li>
+							<li class="simple-list-item">Zone 2: Light, 60 percent to 70 percent of MHR</li>
+							<li class="simple-list-item">Zone 3: Moderate, 70 percent to 80 percent of MHR</li>
+							<li class="simple-list-item">Zone 4: Hard, 80 percent to 90 percent of MHR</li>
+							<li class="simple-list-item">Zone 5: Very hard, 90 percent to 100 percent of MHR</li>
+						</ul>
+						<p>Garmin devices calculate these zones for the user and provide live biofeedback during activities by displaying information about what zone the athlete is in. The device will also provide post-activity summaries.</p>
+            <figure> <img src="images/project/Data-Field-Zones.png" class="img-fluid" alt="Three different devices showing location of Z1-Z5. Boxes outline Z3-Z5 which consumes a larger portion of the display.">
+							<figcaption>Zones on a Garmin display</figcaption>
+						</figure>
+						<p>There are different methods of heart rate training. This design challenge will focus on MAF training. MAF stands for Maximum Aerobic Function which aims to help athletes build a great aerobic base and falls within Zone 2. Although there are many training metrics that can customize to your liking, there are no easy, ready-to-go data fields specific to MAF low heart rate training, which is different than standard HR zones.</p>
+						<h2 class="text-left">Understanding your users</h2>
+						<h3 class="text-left">Research</h3>
+						<p>I started my research by reading through <a href="https://philmaffetone.com/" target="_blank" rel="noopener">The MAF Method site</a> and reading &ldquo;THE MAF Method&rdquo; eBook by Dr. Philip Maffetone. Then I found MAF Method social media posts, blogs, and websites to gain insight on the frustrations they were experiencing and what their wants and needs were. I quickly identified the main issues people had with MAF training:</p>
+						<ul class="simple-list">
+							<li class="simple-list-item">Miscalculating max HR (known as the &ldquo;denial phase&rdquo; or characterized by those who feel &ldquo;the formula doesn&rsquo;t apply to me&rdquo;)</li>
+							<li class="simple-list-item">Consistently going over max, especially during first weeks/months of training</li>
+							<li class="simple-list-item">Slowing down a lot to stay below MAF threshold level (low confidence &ndash; Am I doing this right?)</li>
+							<li class="simple-list-item">Within minutes of starting, HR shoots up causing you to have to slow down even more</li>
+							<li class="simple-list-item">Setting device to alert when max has been exceeded often doesn&rsquo;t trigger until already a few beats over. According to Dr. Maffetone, going over MAF by even 2-3 beats can trigger mildly anaerobic response which is something that is supposed to be totally avoided during MAF training.</li>
+						</ul>
+						<p>Because MAF training relies on a proper warm-up and cool down, I wanted to know how people typically track these with their device. I polled a Trail and Ultra Running group and asked how do you handle warm-ups and cool downs on your fitness tracker?</p>
+						<ul class="simple-list">
+							<li class="simple-list-item">Option 1: As one activity (start, warm-up, run, cool down, stop)</li>
+							<li class="simple-list-item">Option 2: As separate activities (start, warm-up, stop, start, run, stop, start, cool down, stop)</li>
+							<li class="simple-list-item">Option 3: I don&rsquo;t warm-up or cool down</li>
+							<li class="simple-list-item">Option 4: I don&rsquo;t track warm-up and cool down</li>
+						</ul>
+            <figure> <img src="images/project/Taur-Poll.png" class="img-fluid" alt="Results of a poll showing tracking warm-ups and cools down as one activity was the most popular.">
+							<figcaption>Warm-up and cool down poll</figcaption>
+						</figure>
+						<h3 class="text-left">Define the problem</h3>
+						<p>With all this information at hand, I crafted my problem statement.</p>
+						<p>Athletes are struggling to use Garmin heart rate monitoring devices for MAF training because standard heart rate zones are incompatible. Connect IQ, which has thousands of apps, has nothing on the market for MAF or low heart rate training. With the popularity of MAF training, a targeted data field will help athletes better execute MAF training and will easily be chosen over any other heart rate training data field currently on the market.</p>
+						<p>Then I got to work identifying my users.</p>
+						<ul class="simple-list">
+							<li class="simple-list-item">I am an athlete who follows the MAF Method to build my aerobic base and increase endurance. It is important I know that I am &ldquo;in the zone&rdquo; so I can ensure I am following my training plan correctly. I regularly use fitness tracking tools, such as heart rate monitoring, to provide biofeedback during training. My preferred device is a Garmin fitness watch and I like that I can pick and choose different screens to download onto my device but searches for &ldquo;MAF&rdquo; or &ldquo;low heart rate training&rdquo; do not show useful options. Options I do see have different zones and I am confused with how these can be used for MAF.</li>
+							<li class="simple-list-item">I am new to wearable devices and am easily overwhelmed with so many customization options. I need an easy to set screen that makes it simple to use the Maffetone Method.</li>
+							<li class="simple-list-item">I recently converted to low heart rate training. I am familiar with data fields, but the available options seem too complicated and focus on Z3-Z5 training. I need a screen relevant to only Z2 training.</li>
+							<li class="simple-list-item">I am a self-proclaimed &ldquo;data junkie&rdquo; and obsessed with my fitness watch. I often post on social media about &ldquo;my gains&rdquo; and even share screenshots of my device during training. I need Insta-worth displays that I can share with my followers.</li>
+							<li class="simple-list-item">I have low/sensitive vision and find most of my device&rsquo;s screens hard to read, especially while I am active. The text is too small, cluttered, and blends in with the rest of the screen. I need to choose my own color and font size so I can see what is on my screen without strain.</li>
+							<li class="simple-list-item">I use my device in a lot of settings (sunny, nighttime, rainy) and in all temperatures. My device must touch my skin to detect a heartbeat and my coat often covers it up. I need a screen-free experience with non-visual alerts whenever I fall out of my personalized zone.</li>
+						</ul>
+            <figure> <img src="images/project/Garmin-Users-Web-Small.png" class="img-fluid" alt="Running silhouettes in front of individually colored backgrounds representing user personas.">
+							<figcaption>User personas help your design by helping you recognize that different people have different needs</figcaption>
+						</figure>
+            <h2 class="text-left">Early Ideation</h2>
+						<h3 class="text-left">Challenge Assumptions</h3>
+						<p>Before I worked on sketches for the design solution, I wanted to get a grasp of what wasn&rsquo;t working with what was already on the market. The data fields offered <em>too much</em> of the wrong information and <em>not enough</em> of the right information. It is not useful to see a rolling HR histogram, know what your max or average HR has been during that activity, or time spent in Z3-Z5. Watches have a very small display screen, and all this additional information makes for a crammed presentation.</p>
+						<p>Athletes instead need the following:</p>
+						<ul class="simple-list">
+							<li class="simple-list-item">An accurate <a href="https://philmaffetone.com/180-formula/" target="_blank" rel="noopener">MAF max</a>
+								<ul>
+									<li class="simple-list-subitem">Users frequently select the wrong category decreasing the effectiveness of training.</li>
+								</ul>
+							</li>
+							<li class="simple-list-item">Their MAF range (MAF max to MAF max minus 10 beats)
+								<ul>
+									<li class="simple-list-subitem">Users, especially beginners, struggle to maintain awareness where they are in the range.</li>
+								</ul>
+							</li>
+							<li class="simple-list-item">Alerts for nearing/entering/exiting the MAF range
+								<ul>
+									<li class="simple-list-subitem">Users are frustrated that optional built-in alerts trigger after the threshold is exceeded. Even 2 to 3 beats over the MAF threshold can trigger an anaerobic response.</li>
+								</ul>
+							</li>
+						</ul>
+            <h3 class="text-left">Initial Design</h3>
+            <p>The main display of the data field would be a personalized MAF range. During the activity, a solid line will travel up and down the range providing biofeedback and coaching tips to "slow down" or "speed up" to keep you in the desired range.</p>
+            <figure> <img src="images/project/Sketch.jpg" class="img-fluid" alt="Hand drawn sketch showing flow from warm-up to walk and/or run to cool down. Includes display screens for different zones.">
+							<figcaption>Hand drawn sketch</figcaption>
+						</figure>
+            <figure> <img src="images/project/Data-Field-Mock-Up.png" class="img-fluid" alt="Mock up showing heart rate displays below, above, and within MAF range. Includes indictors to slow down and speed up.">
+							<figcaption>Data field main display mock up</figcaption>
+						</figure>
+						<h2 class="text-left">Learning Experience and Next Steps</h2>
+            <p>I started this project with a heart rate graph wondering how to get something like it on my watch, but I didn't know how to even begin. The Design Thinking Method help me start this project by providing a systematic approach to defining a problem, understanding users, and working towards a solution that has value.</p>
+            <p>I was surprised to learn design thinking isn't a sequential process. You can work through the stages in parallel and return to any stage iteratively to refine. I certainly felt like I was working in a circle at times, but each loop around I felt myself getting closer to the objective.</p>
+            <p>If I could carry on this project, I would want to ask a specific audience for focused feedback on the design, then analyze the results for actionable insights. I would use multi-choice questions to ask user's preferences. Questions would be designed to cut bias. For example, using "what do you think" versus "what do you like". When appropriate, questions would include options for "None" or "Other" with the option for participants to add their own response. I would also use scale format questions to gauge confidence and clarity of the design.</p> 
+            <p>I would work on identifying priorities, possibly using MoSCoW prioritization. An example of prioritization for this project could look like the following.</p>
+            <ul class="simple-list">
+							<li class="simple-list-item">Must have
+								<ul>
+									<li class="simple-list-subitem">Easy and accurate Z2 calculation</li>
+									<li class="simple-list-subitem">Custom color options</li>
+									<li class="simple-list-subitem">Custom alert options (i.e. sound, vibrate)</li>
+								</ul>
+							</li>
+							<li class="simple-list-item">Should have
+								<ul>
+									<li class="simple-list-subitem">Customizable alerting (early vs. over)</li>
+									<li class="simple-list-subitem">Use device input to reduce user double-entry (i.e. age)</li>
+								</ul>
+							</li>
+							<li class="simple-list-item">Could have
+								<ul>
+									<li class="simple-list-subitem">Training status indicator since built-in one isn&rsquo;t MAF compatible</li>
+									<li class="simple-list-subitem">Cardiac drift (fatigue) alerting</li>
+								</ul>
+							</li>
+							<li class="simple-list-item">Won&rsquo;t have
+								<ul>
+									<li class="simple-list-subitem">Heart rate variability</li>
+									<li class="simple-list-subitem">Rolling HR histogram</li>
+								</ul>
+							</li>
+						</ul>
+            <p>This is a product I truly believe is missing in the Garmin market. As much as I would love to bring it there, I have so many other projects I want to work such as writing articles, fulfilling a dream of becoming a speaker, and completing an information architecture challenge.</p>
+            <p>For now this project will sit on the back burner because the road to success is the power of prioritizing!</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	<!-- FOOTER -->
+	<footer class="footer py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 col-12">
+					<p class="text-center">
+						<a aria-label="LinkedIn" href="https://www.linkedin.com/in/lacy-skrzeczkoski/" target="_blank"> <i aria-hidden="true" class="fa fa-linkedin" title="LinkedIn"></i> </a>
+						<a aria-label="GitHub" href="https://github.com/lacy-skrz" target="_blank"> <i aria-hidden="true" class="fa fa-github" title="GitHub"></i> </a>
+						<a aria-label="CodePen" href="https://codepen.io/lacy-skrz" target="_blank"> <i aria-hidden="true" class="fa fa-codepen" title="CodePen"></i> </a>
+					</p> <small class="copyright-text text-center">Copyright &copy; 2020 Lacy Skrzeczkoski. All rights reserved.</small> </div>
+			</div>
+		</div>
+	</footer>
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/Headroom.js"></script>
+	<script src="js/jQuery.headroom.js"></script>
+	<script src="js/owl.carousel.min.js"></script>
+	<script src="js/smoothscroll.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+
+</html>
