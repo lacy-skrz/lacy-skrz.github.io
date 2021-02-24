@@ -55,6 +55,7 @@ a {
   color: #0063e2;
 }
 
+
 a:hover {
   color: #00727a !important;
   text-decoration: underline !important;
@@ -391,7 +392,7 @@ b, strong {
 }
 
 .dark-mode a {
-  color: #1F81FF;
+  color: #7fb0f0;
 }
 
 .dark-mode a:hover {
@@ -817,8 +818,8 @@ html:not(.dark-mode) .dark-only { display: none; }
 ul.simple-list {
   text-align: left;
   padding: 0 2rem;
-  background-color:#e5effc;
-  border-top: solid #0063e2;
+  background-color:#e5f6f6;
+  border-top: solid #05aba6;
   margin-bottom: 2em;
   }
 
@@ -843,8 +844,8 @@ li.simple-list-item img {
 ul.emoji-list {
   text-align: left;
   padding: 0 2rem;
-  background-color:#e5effc;
-  border-top: solid #0063e2;
+  background-color:#e5f6f6;
+  border-top: solid #05aba6;
   margin-bottom: 2em;
   }
 
@@ -971,6 +972,7 @@ blockquote:before {
   font-size: 4em;
   line-height: 0.1em;
   vertical-align: -0.4em;
+  
 }
 blockquote:after {
   color: #ccc;
@@ -988,3 +990,4 @@ blockquote p {
 .dark-mode blockquote p {
   color: #121212;
 }
+
